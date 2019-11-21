@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>情報を新規登録する</title>
+</head>
+<body>
+    <header>
+        <h2>事故情報検索サービス(仮)</h2>
+        <nav>
+            <a href="login.html">ログインする</a>
+            <a href="jikomi.html">事故情報を見る</a>
+            <a href="">事故情報を新規登録する</a>
+            <a href="">ヘルプ</a>
+        </nav>
+    </header>
+
+    <h1>事故情報新規登録フォーム</h1>
+    発生月日：<input type ="date">
+    <br/>
+    発生時間：<input type="time">
+    <br/>
+    発生場所(都道府県)：<select name="example">
+            <option value="サンプル1">全国</option>
+    </select>
+    <br/>
+    発生場所(市区町村)：<input type="text" name="town">
+    <br/>
+    事故概要：<input type="text" name="naiyo">
+    <br>
+    事故詳細：<input type="text" name="syosai">
+    <br/>
+<button>登録</button>
+
+</body>
+</html>
